@@ -13,7 +13,7 @@ function changeAdvise() {
       gyaan.textContent = data.slip.advice;
       gyaanNum.textContent = data.slip.id;
     })
-    .catch((err) => console.log(`Sorry😢,Something went wrong!`));
+    .catch((err) => alert(`Sorry😢,Something went wrong!`));
 }
 
 window.addEventListener("load", changeAdvise);
